@@ -74,4 +74,5 @@
   (setq lsp-pyls-plugins-autopep8-enabled nil)
   (setq lsp-pyls-plugins-yapf-enabled nil)
   (setq lsp-pyls-plugins-pyflakes-enabled nil)
+  (setq lsp-pyls-plugins-pycodestyle-max-line-length 88)
 )
