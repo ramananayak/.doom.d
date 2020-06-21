@@ -19,7 +19,7 @@
        ;;japanese
 
        :completion
-       (company +childframe +tng)          ; the ultimate code completion backend
+       company          ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
        ivy               ; a search engine for love and life
@@ -40,7 +40,7 @@
        ophints           ; highlight the region an operation acts on
        (popup +defaults)   ; tame sudden yet inevitable temporary windows
        (pretty-code +iosevka)      ; ligatures or substitute text with pretty symbols
-       ;;tabs              ; an tab bar for Emacs
+       tabs              ; an tab bar for Emacs
        ;; treemacs          ; a project drawer, like neotree but cooler
        ;;unicode           ; extended unicode support for various languages
        vc-gutter         ; vcs diff in the fringe
